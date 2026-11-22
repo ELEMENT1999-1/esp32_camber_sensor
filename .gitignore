@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 打包 / 构建产物（可再生）----
+build/
+dist/
+*.spec
+pc_client/CamberMonitor.exe
+
+# ---- ESP-IDF（camber-sensor）----
+camber-sensor/build/
+camber-sensor/managed_components/
+camber-sensor/sdkconfig
+camber-sensor/sdkconfig.old
+camber-sensor/build_log.txt
+camber-sensor/flash_log.txt
+.clangd
+
+# ---- 运行时生成 ----
+pc_client/systems.json
+camber_error.log
+*.log
+
+# ---- 工具 / 截图取证（临时产物）----
+tools/audit/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# ---- OneDrive 同步残留 ----
+*.tmp

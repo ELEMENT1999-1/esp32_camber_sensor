@@ -1,0 +1,8 @@
+# 二进制文件不做换行转换
+*.zip binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bin binary
+*.elf binary
